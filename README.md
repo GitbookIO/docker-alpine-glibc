@@ -1,8 +1,8 @@
 # Docker Alpine glibc
 
+[![](https://badge.imagelayers.io/gitbook/alpine-glibc:latest.svg)](https://imagelayers.io/?images=gitbook/alpine-glibc:latest)
 [![Docker Stars](https://img.shields.io/docker/stars/gitbook/alpine-glibc.svg?style=flat-square)](https://hub.docker.com/r/gitbook/alpine-glibc/)
 [![Docker Pulls](https://img.shields.io/docker/pulls/gitbook/alpine-glibc.svg?style=flat-square)](https://hub.docker.com/r/gitbook/alpine-glibc/)
-[![](https://badge.imagelayers.io/gitbook/alpine-glibc:latest.svg)](https://imagelayers.io/?images=gitbook/alpine-glibc:latest)
 
 This image is based on Alpine Linux image, which is only a 5MB image, and contains `glibc` to enable
 proprietary projects compiled against `glibc` (e.g. OracleJDK, Anaconda) work on Alpine. It has the added of benefit of being correctly versioned with **semver** (unlike most docker images).
