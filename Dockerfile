@@ -1,3 +1,4 @@
+# VERSION 0.0.0
 FROM alpine:3.3
 
 # Install GNU libc (aka glibc)
